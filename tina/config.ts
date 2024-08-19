@@ -4,8 +4,8 @@ import { schema } from './schema'
 const tinaConfig = defineConfig({
   tinaioConfig: {
     frontendUrlOverride: 'http://localhost:3002',
-    identityApiUrlOverride: 'oz-identity.tinajs.dev',
-    contentApiUrlOverride: 'oz-content.tinajs.dev',
+    identityApiUrlOverride: 'https://oz-identity.tinajs.dev',
+    contentApiUrlOverride: 'https://oz-content.tinajs.dev',
 
     // Include next line only if you set DEPLOY_ASSETS_API to true for your instance...
     // assetsApiUrlOverride: 'https://assets-api-local-oz.tinajs.dev'
